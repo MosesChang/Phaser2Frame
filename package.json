@@ -1,0 +1,33 @@
+{
+  "name": "phaser2frame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --config webpack.config.dev.js --open",
+    "build": "webpack --config webpack.config.prod.js --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MosesChang/PhaserFrame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MosesChang/PhaserFrame/issues"
+  },
+  "homepage": "https://github.com/MosesChang/PhaserFrame#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "phaser": "2.6.2",
+    "ts-loader": "^7.0.5",
+    "typescript": "2.6.2",
+    "uglifyjs-webpack-plugin": "^1.1.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
